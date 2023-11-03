@@ -27,7 +27,7 @@ else(USES_RE2C)
 endif()
 
 find_package(Eigen3 3.3 REQUIRED)
-find_package(Boost 1.78 REQUIRED COMPONENTS headers)
+find_package(Boost 1.71 REQUIRED COMPONENTS headers)
 find_package(suitesparse MODULE REQUIRED)
 
 add_subdirectory(libs)

@@ -145,9 +145,9 @@ target_link_libraries(libfemp
 	PUBLIC
 	Boost::headers
 	Eigen3::Eigen
+	libla
 	libquadrature::Object
 	PRIVATE
-	libla
 	libfemp_io::Object
 	libfemp_mesh::Object
 	)
